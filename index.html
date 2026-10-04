@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#24151f">
+  <meta name="description" content="Digital business card for Gabriela Vitanova, economist and Vice President of the Foundation Institute for Socio-Economic Development.">
+  <title>Gabriela Vitanova | Digital Business Card</title>
+  <style>
+    :root{color-scheme:dark;--bg:#21131d;--panel:#35212e;--panel2:#432638;--rose:#dda88f;--rose2:#f0cdb4;--white:#fff8f2;--muted:#d0bcb4;--line:rgba(232,184,157,.24)}
+    *{box-sizing:border-box}
+    body{margin:0;min-height:100vh;padding:28px 16px;display:grid;place-items:center;font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:var(--white);background:radial-gradient(ellipse at 50% -8%,#704557 0%,#3c2634 34%,var(--bg) 76%)}
+    .card{width:min(100%,510px);position:relative;overflow:hidden;border:1px solid rgba(232,184,157,.34);border-radius:28px;padding:32px 25px 23px;background:linear-gradient(155deg,rgba(69,41,57,.98),rgba(36,22,32,.98) 74%);box-shadow:0 28px 84px rgba(0,0,0,.4),0 0 46px rgba(221,168,143,.1)}
+    .card:before{content:"";position:absolute;left:25px;right:25px;top:0;height:2px;background:linear-gradient(90deg,transparent,var(--rose2),transparent);box-shadow:0 0 16px rgba(240,205,180,.45)}
+    .orb{position:absolute;pointer-events:none;width:240px;height:240px;right:-126px;top:120px;border-radius:50%;background:radial-gradient(circle,rgba(221,168,143,.12),transparent 68%)}
+    .content{position:relative}
+    .brand{text-align:center;margin:0 auto 30px}
+    .brand-mark{width:54px;height:54px;margin:0 auto 11px;display:grid;place-items:center;border:1px solid rgba(240,205,180,.55);border-radius:18px;color:var(--rose2);font-size:14px;font-weight:850;letter-spacing:.13em;background:linear-gradient(145deg,rgba(240,205,180,.13),rgba(240,205,180,.03));box-shadow:inset 0 1px rgba(255,255,255,.08),0 8px 25px rgba(0,0,0,.18)}
+    .brand-name{font-size:15px;font-weight:850;letter-spacing:.18em}
+    .brand-name span{color:var(--rose2)}
+    .brand-sub{max-width:340px;margin:7px auto 0;color:var(--muted);font-size:9px;letter-spacing:.15em;line-height:1.6;text-transform:uppercase}
+    .eyebrow{color:var(--rose2);font-size:10px;font-weight:800;letter-spacing:.23em;text-align:center;text-transform:uppercase}
+    h1{margin:9px 0 12px;text-align:center;font-size:clamp(32px,8vw,42px);line-height:1.08;letter-spacing:-.045em}
+    .role{max-width:380px;margin:auto;text-align:center;color:var(--muted);font-size:14px;line-height:1.65}
+    .role strong{color:var(--white);font-weight:650}
+    .rule{width:59px;height:2px;margin:21px auto;background:var(--rose2);border-radius:9px;box-shadow:0 0 15px rgba(240,205,180,.42)}
+    .credential{margin:0 0 22px;padding:14px 15px;border:1px solid rgba(232,184,157,.2);border-radius:15px;background:rgba(255,248,242,.045);text-align:center;color:var(--muted);font-size:12px;line-height:1.5}
+    .credential strong{display:block;margin-bottom:2px;color:var(--rose2);font-size:13px}
+    .save{width:100%;min-height:61px;display:flex;align-items:center;justify-content:space-between;gap:12px;padding:13px 17px;border:1px solid rgba(255,240,224,.25);border-radius:15px;color:#2b1a24;background:linear-gradient(110deg,#f2d4bc,#dcaa91);font:inherit;font-weight:850;text-align:left;cursor:pointer;box-shadow:0 8px 24px rgba(18,8,15,.24)}
+    .save small{display:block;margin-top:3px;font-size:10px;font-weight:550;opacity:.78}
+    .save .arrow{font-size:20px}
+    .contacts{display:grid;grid-template-columns:1fr;gap:10px;margin-top:13px}
+    .contact{display:flex;align-items:center;gap:12px;min-height:61px;padding:12px 14px;color:var(--white);text-decoration:none;border:1px solid var(--line);border-radius:14px;background:rgba(255,248,242,.04);transition:border-color .18s,transform .18s,background .18s}
+    .contact:hover,.contact:focus-visible{border-color:rgba(240,205,180,.62);background:rgba(240,205,180,.09);transform:translateY(-1px);outline:none}
+    .icon{width:34px;height:34px;flex:0 0 34px;display:grid;place-items:center;border-radius:11px;color:var(--rose2);background:rgba(221,168,143,.13);font-size:15px}
+    .contact-label{display:block;color:var(--muted);font-size:9px;font-weight:800;letter-spacing:.14em;text-transform:uppercase}
+    .contact-value{display:block;margin-top:3px;color:var(--white);font-size:13px;overflow-wrap:anywhere}
+    .location{margin-top:10px;padding:12px;text-align:center;color:var(--muted);font-size:12px}
+    .footer{margin-top:14px;padding-top:16px;border-top:1px solid rgba(232,184,157,.18);text-align:center;color:var(--muted);font-size:9px;letter-spacing:.11em;text-transform:uppercase}
+    @media(max-width:360px){.card{padding:27px 18px 20px;border-radius:22px}.brand-mark{width:49px;height:49px}}
+  </style>
+</head>
+<body>
+  <main class="card">
+    <div class="orb" aria-hidden="true"></div>
+    <div class="content">
+      <header class="brand" aria-label="Academia ABC">
+        <div class="brand-mark" aria-hidden="true">ABC</div>
+        <div class="brand-name">ACADEMIA <span>ABC</span></div>
+        <div class="brand-sub">Foundation Institute for Socio-Economic Development</div>
+      </header>
+      <div class="eyebrow">Connect with</div>
+      <h1>Gabriela Vitanova</h1>
+      <div class="role"><strong>Vice President</strong><br>Foundation Institute for Socio-Economic Development</div>
+      <div class="rule" aria-hidden="true"></div>
+      <section class="credential" aria-label="Professional role"><strong>Economist</strong>Socio-Economic Development</section>
+      <button class="save" id="saveContact" type="button">
+        <span>Save to Contacts<small>Add Gabriela's details to your phone</small></span><span class="arrow" aria-hidden="true">↓</span>
+      </button>
+      <nav class="contacts" aria-label="Contact Gabriela">
+        <a class="contact" href="tel:+38975452850"><span class="icon" aria-hidden="true">☎</span><span><span class="contact-label">Call</span><span class="contact-value">+389 75 452 850</span></span></a>
+        <a class="contact" href="mailto:gabrielavitanova974@gmail.com"><span class="icon" aria-hidden="true">✉</span><span><span class="contact-label">Email</span><span class="contact-value">gabrielavitanova974@gmail.com</span></span></a>
+      </nav>
+      <div class="location">Strumica, North Macedonia</div>
+      <div class="footer">People · Ideas · Opportunities · Lasting Impact</div>
+    </div>
+  </main>
+  <script>
+    document.getElementById('saveContact').addEventListener('click',()=>{
+      const vcard=[
+        'BEGIN:VCARD','VERSION:3.0','N:Vitanova;Gabriela;;;','FN:Gabriela Vitanova',
+        'ORG:Foundation Institute for Socio-Economic Development Academia ABC',
+        'TITLE:Economist | Vice President',
+        'TEL;TYPE=CELL,VOICE:+38975452850','EMAIL;TYPE=INTERNET:gabrielavitanova974@gmail.com',
+        'ADR;TYPE=WORK:;;Strumica;;;North Macedonia','NOTE:Economist and Vice President of the Foundation Institute for Socio-Economic Development',
+        'END:VCARD'
+      ].join('\r\n');
+      const blob=new Blob([vcard],{type:'text/vcard;charset=utf-8'});
+      const url=URL.createObjectURL(blob);
+      const link=document.createElement('a');link.href=url;link.download='Gabriela-Vitanova.vcf';
+      document.body.appendChild(link);link.click();link.remove();URL.revokeObjectURL(url);
+    });
+  </script>
+</body>
+</html>
